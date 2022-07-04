@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="w-50 py-5">
+      <h2>Tính Lương Nhân Viên</h2>
+      <form>
+        <div class="form-group">
+          <label for="soNgay">Số Ngày làm việc</label>
+          <input type="number" class="form-control" id="workDays" placeholder="nhập số ngày làm việc....">
+          <button type="button" id="btnLuong" class="btn btn-success">Tính</button>
+        </div>
+      </form>
+      <label for="LuongNV">Lương Nhân Viên</label>
+      <p class="alert alert-info" id="luongNV"></p>
+    </div>
+
+    <div class="w-50 py-5">
+      <h2>Tính Giá trị trung bình của 5 số</h2>
+      <form>
+        <div class="form-group">
+          <label for="number1">số thứ 1</label>
+          <input type="number" class="form-control" id="number1" placeholder="nhập số thứ nhất....">
+          <label for="number2">số thứ 2</label>
+          <input type="number" class="form-control" id="number2" placeholder="nhập số thứ hai....">
+          <label for="number3">số thứ 3</label>
+          <input type="number" class="form-control" id="number3" placeholder="nhập số thứ ba....">
+          <label for="number4">số thứ 4</label>
+          <input type="number" class="form-control" id="number4" placeholder="nhập số thứ tư....">
+          <label for="number5">số thứ 5</label>
+          <input type="number" class="form-control" id="number5" placeholder="nhập số thứ năm....">
+          
+          <button type="button" id="btnSTB" class="btn btn-success">Tính</button>
+        </div>
+      </form>
+      <label for="STB">Số trung bình</label>
+      <p class="alert alert-info" id="soTrungBinh"></p>
+    </div>
+
+
+    <div class="w-50 py-5">
+      <h2>Quy đổi tiền</h2>
+      <form>
+        <div class="form-group">
+          <label for="USD">nhập USD </label>
+          <input type="number" class="form-control" id="USD" placeholder="nhập số USD">
+          <button type="button" id="btnDoi" class="btn btn-success">đổi</button>
+        </div>
+      </form>
+      <label for="VND">só VND </label>
+      <p class="alert alert-info" id="VND"></p>
+    </div>
+
+
+    <div class="w-50 py-5">
+      <h2>Tính diện tích chu vi hình chũ nhật</h2>
+      <form>
+        <div class="form-group">
+          <label for="chieuDai">chiều dài hình chữ nhật </label>
+          <input type="number" class="form-control" id="chieuDai" placeholder="nhập chiều dài hình chữ nhật">
+          <label for="chieuRong">chiều rộng hình chữ nhật</label>
+          <input type="number" class="form-control" id="chieuRong" placeholder="nhập chiều rộng hình chữ nhật">
+
+          <button type="button" id="btnChuVi" class="btn btn-success">Tính Chu vi</button>
+          <button type="button" id="btnDienTich" class="btn btn-success">Tính Diện Tích</button>
+
+        </div>
+      </form>
+      <label for="ChuVi">Chu vi hình chữ nhật </label>
+      <p class="alert alert-info" id="ChuVi"></p>
+      <label for="DienTich">Diện tích hình chữ nhật </label>
+      <p class="alert alert-info" id="DienTich"></p>
+    </div>
+
+
+    <div class="w-50 py-5">
+      <h2>Tính tổng hai kí số</h2>
+      <form>
+        <div class="form-group">
+          <label for="so">số </label>
+          <input type="number" class="form-control" id="number" placeholder="nhập số bất kí có hai chữ số">
+          <button type="button" id="btnTong" class="btn btn-success">Tính</button>
+        </div>
+      </form>
+      <label for="Tong">Tổng hai kí số</label>
+      <p class="alert alert-info" id="tong"></p>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+
+
+  <script src="./js/baitap1.js"></script>
+  <script src="./js/baitap2.js"></script>
+  <script src="./js/baitap3.js"></script>
+  <script src="./js/baitap4.js"></script>
+  <script src="./js/baitap5.js"></script>
+</body>
+
+</html>
